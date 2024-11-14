@@ -7,8 +7,8 @@ from collections import OrderedDict
 
 import numpy as np
 
-from common.gradient import numerical_gradient
-from common.layers import *
+from gradient import numerical_gradient
+from layers import *
 
 
 class MultiLayerNetExtend:

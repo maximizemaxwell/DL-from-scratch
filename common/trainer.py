@@ -1,9 +1,11 @@
 # coding: utf-8
-import sys, os
+import os
+import sys
 
 sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
 import numpy as np
-from common.optimizer import *
+
+from optimizer import *
 
 
 class Trainer:
